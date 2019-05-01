@@ -29,8 +29,8 @@ php7.0enmod mcrypt
 
 #The following commands set the MySQL root password to MYPASSWORD123 when you install the mysql-server package.
 
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password MYPASSWORD123'
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password MYPASSWORD123'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password mysql_root_password_8xe4K93zAskf8T'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password mysql_root_password_8xe4K93zAskf8T'
 sudo apt-get -y install mysql-server
 
 #Restart all the installed services to verify that everything is installed properly
